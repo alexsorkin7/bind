@@ -1,0 +1,24 @@
+{
+    "name": "als/bind",
+    "description": "Allows to send ajax request to server,manipulate dom objects and manage db on client side for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Sorkin",
+            "email": "Alesorkin1980@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Als\\Bind\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["Als\\Bind\\BindServiceProvider"]
+        }
+    }
+}
